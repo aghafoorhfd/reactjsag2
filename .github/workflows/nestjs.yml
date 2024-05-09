@@ -1,4 +1,4 @@
-name: nestjs workflow
+name: nestjs workflow AG
 on:
   workflow_call:
   workflow_dispatch:
