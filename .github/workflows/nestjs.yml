@@ -5,4 +5,4 @@ on:
 
 jobs:
   calling-workflow:
-    uses: aghafoorhfd/reactjsag/tree/main/.github/workflows/action.yml@main
+    uses: aghafoorhfd/reactjsag/.github/workflows/action.yml@main
