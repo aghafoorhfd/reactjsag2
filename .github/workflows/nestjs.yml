@@ -11,4 +11,4 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: reusable nestjs workflow
-        uses: kuntrapakam/reusable-workflow/.github/actions/nestjs@main
+        uses: aghafoorhfd/reactjsag/tree/main/.github/workflows/action.yml@main
