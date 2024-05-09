@@ -1,1 +1,8 @@
+name: Reusable GA Workflow Demo
 
+on:
+  push:
+
+jobs:
+  calling-workflow:
+    uses: aghafoorhfd/reactjsag/tree/main/.github/workflows/action.yml@main
