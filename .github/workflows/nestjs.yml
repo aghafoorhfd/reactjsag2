@@ -1,0 +1,14 @@
+name: nestjs workflow
+on:
+  workflow_call:
+  workflow_dispatch:
+env:
+  GITHUB_TOKEN: ${{secrets.GIT_TOKEN}}
+permissions: write-all
+jobs:
+  nestjs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: reusable nestjs workflow
+        uses: kuntrapakam/reusable-workflow/.github/actions/nestjs@main
