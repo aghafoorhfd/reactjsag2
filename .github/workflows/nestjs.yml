@@ -1,14 +1,1 @@
-name: nestjs workflow AG
-on:
-  workflow_call:
-  workflow_dispatch:
-env:
-  GITHUB_TOKEN: ${{secrets.GIT_TOKEN}}
-permissions: write-all
-jobs:
-  nestjs:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - name: reusable nestjs workflow
-        uses: aghafoorhfd/reactjsag/tree/main/.github/workflows/action.yml@main
+
