@@ -1,11 +1,9 @@
-name: Reusable GA Workflow Demo AQA
 
-on:
-  push:
-
-jobs:
-  calling-workflow:
-    uses: aghafoorhfd/reactjsag/.github/workflows/action.yml@main
-    with:
-      node-version: '20.x'
     
+   name: Caller Workflow
+   on: [push, pull_request]
+   jobs:
+     build:
+       uses: aghafoorhfd/reactjsag/.github/workflows/action.yml@main
+       with:
+         input1: value1
