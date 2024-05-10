@@ -1,4 +1,4 @@
-name: Reusable GA Workflow Demo AQ
+name: Reusable GA Workflow Demo AQA
 
 on:
   push:
