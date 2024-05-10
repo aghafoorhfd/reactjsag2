@@ -6,4 +6,6 @@ on:
 jobs:
   calling-workflow:
     uses: aghafoorhfd/reactjsag/.github/workflows/action.yml@main
-     secrets:inherts
+    with:
+      node-version: '16.x'
+    
