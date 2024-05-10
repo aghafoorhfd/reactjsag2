@@ -1,0 +1,145 @@
+{
+    "success": true,
+    "schools": [
+        {
+            "schoolID": 1,
+            "name": "PGC ",
+            "profileUrl": 1,
+            "address": "12 street saudia",
+            "phoneNo": "231466123",
+            "email": "abc@gmail.com",
+            "webUrl": "http://localhost:5000/docs/#/Schools/CreateSchool",
+            "trnTax": "dhfj65d6",
+            "subjectT": "subject",
+            "lectureT": "lecture",
+            "divisionT": "division",
+            "workingDays": "mon-fri",
+            "scheduling": "string",
+            "shifts": "week",
+            "acadamicYear": [
+                {
+                    "acadamicYearID": 1,
+                    "start": "01-12-2023",
+                    "end": "01-01-2023",
+                    "division": [
+                        {
+                            "divisionID": 1,
+                            "start": "01-04-2023",
+                            "end": "01-01-2023"
+                        },
+                        {
+                            "divisionID": 2,
+                            "start": "01-08-2023",
+                            "end": "01-04-2023"
+                        },
+                        {
+                            "divisionID": 3,
+                            "start": "01-12-2023",
+                            "end": "01-08-2023"
+                        }
+                    ]
+                }
+            ],
+            "Campus": [
+                {
+                    "campusID": 1,
+                    "name": "Boyz",
+                    "stage": [
+                        {
+                            "stageID": 1,
+                            "name": "Middle"
+                        },
+                        {
+                            "stageID": 2,
+                            "name": "high"
+                        }
+                    ]
+                },
+                {
+                    "campusID": 2,
+                    "name": "gIRLS",
+                    "stage": [
+                        {
+                            "stageID": 3,
+                            "name": "Middle"
+                        },
+                        {
+                            "stageID": 4,
+                            "name": "high"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "schoolID": 2,
+            "name": "PGC ",
+            "profileUrl": 1,
+            "address": "12 street saudia",
+            "phoneNo": "231466123",
+            "email": "abc@gmail.com",
+            "webUrl": "http://localhost:5000/docs/#/Schools/CreateSchool",
+            "trnTax": "dhfj65d6",
+            "subjectT": "subject",
+            "lectureT": "lecture",
+            "divisionT": "division",
+            "workingDays": "mon-fri",
+            "scheduling": "string",
+            "shifts": "week",
+            "acadamicYear": [
+                {
+                    "acadamicYearID": 2,
+                    "start": "01-12-2023",
+                    "end": "01-01-2023",
+                    "division": [
+                        {
+                            "divisionID": 4,
+                            "start": "01-04-2023",
+                            "end": "01-01-2023"
+                        },
+                        {
+                            "divisionID": 5,
+                            "start": "01-08-2023",
+                            "end": "01-04-2023"
+                        },
+                        {
+                            "divisionID": 6,
+                            "start": "01-12-2023",
+                            "end": "01-08-2023"
+                        }
+                    ]
+                }
+            ],
+            "Campus": [
+                {
+                    "campusID": 3,
+                    "name": "Boyz",
+                    "stage": [
+                        {
+                            "stageID": 5,
+                            "name": "Middle"
+                        },
+                        {
+                            "stageID": 6,
+                            "name": "high"
+                        }
+                    ]
+                },
+                {
+                    "campusID": 4,
+                    "name": "gIRLS",
+                    "stage": [
+                        {
+                            "stageID": 7,
+                            "name": "Middle"
+                        },
+                        {
+                            "stageID": 8,
+                            "name": "high"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
