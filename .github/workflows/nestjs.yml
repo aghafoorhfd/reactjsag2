@@ -1,4 +1,4 @@
-name: Reusable GA Workflow Demo AQA
+name: Reusable GA Workflow Demo AQ
 
 on:
   push:
@@ -7,5 +7,5 @@ jobs:
   calling-workflow:
     uses: aghafoorhfd/reactjsag/.github/workflows/action.yml@main
     with:
-      node-version: '16.x'
+      node-version: '20.x'
     
